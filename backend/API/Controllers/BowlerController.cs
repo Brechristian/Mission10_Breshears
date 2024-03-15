@@ -19,7 +19,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Object> Get()
+        public IEnumerable<Object> GetBowlers()
         {
             // Include Team data in the query
             var data = (from bowler in _bowlerRepository.Bowlers
