@@ -37,7 +37,7 @@ function TeamList() {
               <td>
                 {b.bowlerLastName}, {b.bowlerFirstName} {b.bowlerMiddleInit}
               </td>
-              <td>{/* teamname info */}</td>
+              <td>{b.teamName}</td>
               <td>{b.bowlerAddress}</td>
               <td>{b.bowlerCity}</td>
               <td>{b.bowlerState}</td>
